@@ -1,3 +1,20 @@
+.unit-links{
+    text-align: center;
+    
+}
+
+.unit-links a {
+    color: black; 
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.unit-links ul {
+    background-color: #ffffff;
+    
+}
+
+
 /* Navigation styles */
 nav li {
     display: inline-block;
