@@ -3,6 +3,7 @@
     
 }
 
+
 .unit-links a {
     color: black; 
     text-decoration: none;
@@ -81,28 +82,30 @@ a {
 }
 
 /* Table styles */
-table thead th {
-    text-align: left;
+table, thead, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    width: 50%;
 }
 
 table {
-    border-collapse: collapse;
-    width: 50%;
-    margin: 0 auto;
+    border-collapse: collapse;  
+    margin: 2em auto;
 }
 
-table, th, td {
-    border: 1px solid rgb(221, 221, 221);
+table, td {
+    border: 1px solid black;
     padding: 8px;
+    text-align: left;
+    width: 50%;
 }
 
 span {
     color: #B71C1C;
 }
 
-table thead th {
-    text-align: center;
-}
+
 
 /* Icons styles */
 .icons {
@@ -140,4 +143,10 @@ footer p {
     font-weight: bold;
     margin-bottom: 5px;
     display: flex;
+}
+.english {
+    background-color: rgb(178, 245, 245);   
+}
+.middle {
+    text-align: center;
 }
