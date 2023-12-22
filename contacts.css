@@ -1,0 +1,26 @@
+.contact-phone {
+    float: right;
+    color: white;
+}
+
+.mail {
+    float: right;
+}
+
+.university {
+    float: right;
+}
+
+.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.find-us {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+}
+

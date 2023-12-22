@@ -1,0 +1,14 @@
+nav li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #B71C1C;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
