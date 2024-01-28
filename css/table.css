@@ -17,8 +17,9 @@ table, td {
     width: 50%;
 }
 
-.english {
-    background-color: rgb(178, 245, 245);   
+.english-middle {
+    background-color: rgb(178, 245, 245);
+    text-align: center; 
 }
 .middle {
     text-align: center;

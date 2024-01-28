@@ -14,6 +14,22 @@ p {
     margin: 0.2em;
 }
 
+.spanish::before {
+    content: '🇪🇸';
+    margin-right: 5px;
+}
+
+.english::before {
+    content: '🇬🇧';
+    margin-right: 5px;
+    
+}
+
+p.english {
+    background: none;
+    margin-bottom: 1.5em;  
+}
+
 .tip {
     margin-top: 1em;
     margin-bottom: 1em;
