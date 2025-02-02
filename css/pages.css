@@ -7,15 +7,26 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    padding: 20px;
 
 }
 
 .page-container p {
-    color: rgb(173, 21, 25);
+    color: black;
+    padding-bottom: 30px;
+
 }
 
-.pages-h1 {
-    color: rgb(173, 21, 25);
+.back-home {
+    max-width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #B71C1C;
+    list-style-type: none;
+}
 
-
+.back-home a {
+    color: white;
 }
