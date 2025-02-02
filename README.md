@@ -1,4 +1,24 @@
-# Spanish-For-Begginers
-Spanish-For-Beginners is a project written in HTML &amp; CSS. The main idea is to enhance my skills in writing HTML &amp; CSS.
+# 🇪🇸 Spanish for Beginners
 
-![Hablas Español](https://github.com/HristianBalevski/Spanish-For-Beginners/assets/114162692/816a3293-7678-40c4-9e5f-afecef1186df)
+**Spanish-For-Beginners** is a simple yet effective project built using **HTML & CSS**. The primary goal is to **enhance my skills in front-end development** while creating an educational resource for learning Spanish.
+
+## 🌟 Features
+
+- 📚 Beginner-friendly Spanish lessons  
+- 🎨 Clean and responsive design  
+- 🌐 Pure HTML & CSS (No frameworks)  
+- 🎯 Focused on **structuring content effectively** and **improving styling skills**  
+
+## 🚀 Technologies Used
+
+- **HTML** - Semantic markup for better structure  
+- **CSS** - Styling and layout  
+
+## 📌 Project Goals
+
+- Improve **HTML & CSS** skills  
+- Practice **web page structuring** and **styling techniques**  
+- Experiment with **typography and UI/UX design**  
+
+
+
