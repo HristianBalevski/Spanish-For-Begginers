@@ -1,0 +1,43 @@
+name: Build, Test & Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Start HTTP Server
+        run: |
+          npm install -g http-server
+          http-server -p 8080 &  # Run in background
+
+      - name: Run Playwright Tests
+        run: |
+          npx playwright install --with-deps
+          TEST_URL="https://spanish-for-beginners.onrender.com/" npx playwright test
+
+      - name: Deploy to Render
+        if: success()
+        run: |
+          curl -X POST "$RENDER_DEPLOY_HOOK"
+
+    env:
+      RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
