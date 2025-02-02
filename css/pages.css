@@ -1,0 +1,21 @@
+.page-container {
+    max-width: 800px;
+    background-color: rgb(246, 181, 17);
+    border-radius: 10px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.page-container p {
+    color: rgb(173, 21, 25);
+}
+
+.pages-h1 {
+    color: rgb(173, 21, 25);
+
+
+}

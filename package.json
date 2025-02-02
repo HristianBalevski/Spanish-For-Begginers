@@ -1,0 +1,28 @@
+{
+  "name": "spanish-for-beginners",
+  "version": "1.0.0",
+  "description": "**Spanish-For-Beginners** is a simple yet effective project built using **HTML & CSS**. The primary goal is to **enhance my skills in front-end development** while creating an educational resource for learning Spanish.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HristianBalevski/Spanish-For-Beginners.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HristianBalevski/Spanish-For-Beginners/issues"
+  },
+  "homepage": "https://github.com/HristianBalevski/Spanish-For-Beginners#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "http-server": "^14.1.1",
+    "playwright": "^1.50.1"
+  }
+}
