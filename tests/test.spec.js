@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-const SERVER_URL = "http://127.0.0.1:5500/index.html";
+const SERVER_URL = "http://127.0.0.1:8080/";
 
 test.describe("Landing Page Tests", () => {
   test.beforeEach(async ({ page }) => {
